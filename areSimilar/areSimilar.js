@@ -7,9 +7,10 @@ function areSimilar(arrOne, arrTwo) {
             arrTwo[i] = arrTwo[i + 1]
             arrTwo[i + 1] = temp;
         }
+        break;
         
     }
-
+    
     let a = arrOne.toString();
     let b = arrTwo.toString();
 
