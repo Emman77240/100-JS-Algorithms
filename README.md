@@ -1,8 +1,8 @@
-## 100 JavaScript Algorithms
+### 100 JavaScript Algorithms
 
 
-This repo contains the solution to 100 Algorithms written in JavaScript.
+# This repo contains the solution to 100 Algorithms written in JavaScript.
 
-The functions were tested using Jest.
+# The functions were tested using Jest.
 
-run npm install to add necessary dependencies.
+# run npm install to add necessary dependencies.
