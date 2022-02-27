@@ -1,13 +1,20 @@
 function areSimilar(arrOne, arrTwo) {
-    let sortedArrOne = arrOne.sort(); 
-    let sortedArrTwo = arrTwo.sort();
+    let temp = 0;
 
-    for(let i = 0; i < arrOne.length; i++) {
-        if(sortedArrOne[i] !== sortedArrTwo[i]) return false;
+    for(let i = 0; i < arrOne.length - 1; i++) {
+        if(arrOne[i] !== arrTwo[i]) {
+            temp = arrTwo[i];
+            arrTwo[i] = arrTwo[i + 1]
+            arrTwo[i + 1] = temp;
+        }
         
     }
 
-    return true;
+    let a = arrOne.toString();
+    let b = arrTwo.toString();
+
+    if(a === b) return true
+    else return false;
     
 }
 
