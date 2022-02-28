@@ -2,7 +2,7 @@ const arrayChange = require("./arrayChange");
 
 
 describe("Array change function", () => {
-    it('Test 1', () => {
+    test('Test 1', () => {
         // arrange
         const data = [1, 1, 1];
 
